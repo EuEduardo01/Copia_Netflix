@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Netflix</title>
+</head>
+<body>
+    <herder>
+        <div class="countanerNavigation">
+            <h1>NETFLIX</h1>
+            <nav class="links">
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Mais recentes</a>
+                <a href="#">Minha lista</a>
+            </nav>
+            <nav class="procurar">
+                <img src="assets/Imagens/lupa-branca-png-3-Transparent-Images.webp" alt="Lupa icone"class="lupaIcon">
+                    <input type="text" placeholder="Netflix">
+                <img src="assets/Imagens/iconBatman.jpg" alt="icone" class="batmanIcon">
+            </nav>
+        </div>
+    </herder>
+    <main>
+        <div class="recommendationContainer">
+            <section class="recommendation"></section>
+        </div>
+        <section class="movies"></section>
+        <section class="movieContainer" tabindex="0">
+                <button onclick="goLeft()" class="arrowLeft"></button>
+                <div class="carousel"></div>
+                <button onclick="goRight()" class="arrowRight"></button>
+        </section>
+        
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
